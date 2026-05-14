@@ -26,10 +26,14 @@ Push Buttons / Switches
 DS18B20 Temperature Sensor
 Fuel Gauge Sensor / Potentiometer
 USB to UART Converter
+
+
 **💻 Software Requirements**
 Embedded C
 KEIL uVision Compiler
 Flash Magic
+
+
 **📚 Concepts Used**
 Embedded C Programming
 LPC2129 Architecture
@@ -39,9 +43,12 @@ CAN Communication Protocol
 RTC Interface
 External Interrupts
 Sensor Interfacing
+
+
 **🧩 System Architecture**
 
 The project contains three CAN nodes:
+
 
 **1️⃣ Main Node**
 
@@ -52,18 +59,24 @@ Displaying RTC details
 Sending indicator commands
 Receiving fuel information
 Updating LCD display
+
+
 **2️⃣ Indicator Node**
 
 Responsible for:
 
 Receiving CAN messages
 Controlling Left/Right indicators using LEDs
+
+
 **3️⃣ Fuel Node**
 
 Responsible for:
 
 Reading fuel sensor value using ADC
 Sending fuel percentage data to Main Node
+
+
 **🔄 Working Flow**
 Temperature sensor data is read by the Main Node.
 Fuel Node continuously reads fuel level and transmits via CAN.

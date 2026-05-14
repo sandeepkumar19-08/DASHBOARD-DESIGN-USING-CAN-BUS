@@ -2,6 +2,8 @@ Dashboard Design Using CAN Bus
 
 A CAN Bus based automotive dashboard system using the LPC2129 microcontroller to monitor and display engine temperature, fuel percentage, and vehicle indicator status.
 This project demonstrates distributed embedded communication using the CAN Protocol with multiple nodes.
+
+
 **📌 Project Overview**
 
 This project is designed to simulate a basic automotive dashboard system where multiple nodes communicate through the CAN Bus network.
@@ -13,6 +15,8 @@ Displays Fuel Percentage
 Controls Left & Right Indicators
 Displays RTC Information (Time, Date & Day)
 Transfers sensor data between nodes using CAN Protocol
+
+
 **🛠️ Hardware Requirements**
 LPC2129 Microcontroller
 MCP2551 CAN Transceiver
